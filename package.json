@@ -1,0 +1,24 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "working with promise, async await and callbacks",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenger": "node src/callback/challenger.js",
+    "promise": "node src/promise/index.js",
+    "promise:challenger": "node src/promise/challenger.js",
+    "async": "node src/async/index.js"
+  },
+  "keywords": [
+    "promise",
+    "async",
+    "await",
+    "callback"
+  ],
+  "author": "Jesus Quinto",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
